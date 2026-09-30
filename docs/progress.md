@@ -19,3 +19,8 @@
 - Registered the virtual device at /dev/smart_meter.
 - Read two simulated pulse counts: 10 and 20.
 - Next: create the C++ application that reads the device and calculates energy.
+
+## Stage 4 — C++ device reader
+- Read simulated pulse counts from /dev/smart_meter using Linux system calls.
+- Calculated energy using the default and a supplied pulses-per-kWh setting.
+- Next: add a high-usage alert and save timestamped readings to CSV.
