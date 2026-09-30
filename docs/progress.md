@@ -24,3 +24,9 @@
 - Read simulated pulse counts from /dev/smart_meter using Linux system calls.
 - Calculated energy using the default and a supplied pulses-per-kWh setting.
 - Next: add a high-usage alert and save timestamped readings to CSV.
+
+## Stage 4 — Prototype analytics and logging
+- C++ application reads the virtual meter and calculates energy.
+- Configurable pulse settings and high-usage thresholds work.
+- Readings are timestamped and appended to data/readings.csv.
+- Next: test normal, alert, and invalid-input cases; then improve the project.
