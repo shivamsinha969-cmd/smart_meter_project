@@ -14,3 +14,8 @@
 - Build warnings about optional BTF data and the unsigned development module did not prevent loading.
 - Next: extend the driver to expose simulated meter readings.
 
+
+## Stage 4 — Simulated meter device
+- Registered the virtual device at /dev/smart_meter.
+- Read two simulated pulse counts: 10 and 20.
+- Next: create the C++ application that reads the device and calculates energy.
