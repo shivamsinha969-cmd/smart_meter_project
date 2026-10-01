@@ -30,3 +30,7 @@
 - Configurable pulse settings and high-usage thresholds work.
 - Readings are timestamped and appended to data/readings.csv.
 - Next: test normal, alert, and invalid-input cases; then improve the project.
+
+## Stage 5 — Testing and improvement
+- Manual calculation, input-validation, integration, and missing-device checks passed.
+- Automated unit test for the calculation functions remains to be added.
