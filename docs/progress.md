@@ -34,3 +34,8 @@
 ## Stage 5 — Testing and improvement
 - Manual calculation, input-validation, integration, and missing-device checks passed.
 - Automated unit test for the calculation functions remains to be added.
+
+## Stage 5 — Automated analytics unit tests
+- Added shared energy and threshold functions used by both the app and unit tests.
+- All six analytics unit checks passed.
+- Rebuilt the app and confirmed it still reads the driver, logs CSV, and alerts at the threshold.

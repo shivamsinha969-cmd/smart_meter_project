@@ -1,3 +1,4 @@
+#include "analytics.hpp"
 #include <cerrno>
 #include <cmath>
 #include <cstring>
@@ -108,9 +109,8 @@ int main(int argc, char* argv[])
     if (!readMeter(pulseCount))
         return 1;
 
-    double energyKwh =
-        static_cast<double>(pulseCount) / pulsesPerKwh;
-    bool highUsage = energyKwh >= thresholdKwh;
+    double energyKwh = calculateEnergy(pulseCount, pulsesPerKwh);
+    bool highUsage = isHighUsage(energyKwh, thresholdKwh);
 
     std::time_t now = std::time(nullptr);
     std::tm localTime{};

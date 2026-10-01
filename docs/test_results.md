@@ -16,5 +16,5 @@ Date: 2026-10-01
 - Reloading the module recreated /dev/smart_meter.
 
 ## Remaining Stage 5 work
-- Add an automated unit test for energy and threshold calculations.
-- Rebuild and rerun the checks after that change.
+- Added automated unit tests for energy and threshold calculations; all six checks passed.
+- Rebuilt the C++ app and confirmed exact-threshold alerting after the refactor.

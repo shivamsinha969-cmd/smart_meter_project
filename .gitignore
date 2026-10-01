@@ -10,3 +10,4 @@ modules.order
 app/smart_meter
 data/*.csv
 app/meter_reader
+tests/test_analytics
